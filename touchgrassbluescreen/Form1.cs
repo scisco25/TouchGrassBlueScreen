@@ -44,6 +44,16 @@ namespace touchgrassbluescreen
             completetime = completetime + newcomplete;
             if(completetime > 100) { completetime = 100; }
             complete.Text = completetime + "% complete";
+            if(completetime == 100)
+            {
+                timer2.Start();
+                timer1.Stop();
+            }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
