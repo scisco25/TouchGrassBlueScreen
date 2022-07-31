@@ -14,7 +14,7 @@ namespace touchgrassbluescreen
             TopMost = true;
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
-
+            Cursor.Hide();
 
 
             var RNG = new Random();
@@ -53,6 +53,7 @@ namespace touchgrassbluescreen
 
         private void timer2_Tick(object sender, EventArgs e)
         {
+            Cursor.Show();
             Application.Exit();
         }
     }

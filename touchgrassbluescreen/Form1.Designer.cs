@@ -64,7 +64,7 @@
             this.outsidetext.Size = new System.Drawing.Size(979, 156);
             this.outsidetext.TabIndex = 1;
             this.outsidetext.Text = "You\'ve been on your PC for too long and you need a\r\nlife. We\'re collecting some i" +
-    "nfo to find the nearest patch\r\nof grass; we\'ll restart for you";
+    "nfo to find the nearest patch\r\nof grass, and then we\'ll restart for you";
             // 
             // complete
             // 
